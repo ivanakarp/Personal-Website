@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently working on a journal paper version.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)\n\n\n\n\n\n\n\nCreated a program for visualizing and checking the validity of petal projections, a construct in knot theory."
+    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently working on a journal paper version.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)\n\n\n\n\nI worked under Assistant Professor Federico Scavia researching the properties of matroids and the Galois groups of their Tutte Polynomials.\n\n\n\nCreated a program for visualizing and checking the validity of petal projections, a construct in knot theory.\n\n\n\nVisualization of a Petal Projection"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am an undergraduate student currently studying Mathematics and Statistics at UCLA. In the past I have mostly applied my skills doing mathematical research in fields such as matroid and knot theory. More recently I have been working as a student researcher at a wind energy lab attempting to predict wind farm power and revenue generation under turbulent conditions. At present I am mostly interested in research on renewable energy and climate science."
+    "text": "Github\n  \n  \n    \n     Email\n  \n\n  \n  \nI am an undergraduate student currently studying Mathematics and Statistics at UCLA. In the past I have mostly applied my skills doing mathematical research in fields such as matroid and knot theory. More recently I have been working as a student researcher at a wind energy lab attempting to predict wind farm power and revenue generation under turbulent conditions. At present I am mostly interested in research on renewable energy and climate science.\n\n\nUniversity of California, Los Angeles | Los Angeles, CA B.S. Mathematics, B.S. Statistics & Data Science | Sept 2021 - June 2025\n\n\n\nCREAS Lab | Student Researcher | May 2024 - present"
   },
   {
     "objectID": "index.html#resume",
@@ -25,6 +25,20 @@
     "href": "index.html#projects",
     "title": "Home",
     "section": "",
-    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently working on a journal paper version.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)\n\n\n\n\n\n\n\nCreated a program for visualizing and checking the validity of petal projections, a construct in knot theory."
+    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently working on a journal paper version.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)\n\n\n\n\nI worked under Assistant Professor Federico Scavia researching the properties of matroids and the Galois groups of their Tutte Polynomials.\n\n\n\nCreated a program for visualizing and checking the validity of petal projections, a construct in knot theory.\n\n\n\nVisualization of a Petal Projection"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "University of California, Los Angeles | Los Angeles, CA B.S. Mathematics, B.S. Statistics & Data Science | Sept 2021 - June 2025"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "",
+    "text": "CREAS Lab | Student Researcher | May 2024 - present"
   }
 ]
