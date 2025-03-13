@@ -1,0 +1,25 @@
+---
+title: "Home"
+---
+
+## Projects
+
+### Wind Farm Simulation
+
+I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently working on a journal paper version.
+
+#### Publications
+
+Data-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, [IEEE Xplore](https://xploreqa.ieee.org/document/10825628/metrics#metrics))
+
+### Matroid Theory Research
+
+### Petal Projection Visualizer
+
+Created a program for visualizing and checking the validity of [petal projections](https://en.wikipedia.org/wiki/Petal_projection), a construct in knot theory.
+
+![](images/Petal Projection-02.png)
+
+## Resume
+
+A copy of my resume can be found here.
