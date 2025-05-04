@@ -1,0 +1,19 @@
+---
+title: "Fun"
+---
+
+## True Histogram Matching
+
+In my free time I enjoy concocting interesting image filters to apply to my and my friends' photographs. One of these is a true histogram matching algorithm which takes in either a gray scale image or the value/lightness channel of a color image and sets its histogram equal to the target by changing pixel values. The final image retains the relative order of pixels (if one pixel is lighter than another before, it will either be equal to lighter after), and runs with as few alterations as possible.
+
+![Original image](images/Img4.jpg){fig-align="center"}
+
+![Result of applying the filter with a uniform target distribution.](images/Imag4_new.png)
+
+(Histogram Matching){https://en.wikipedia.org/wiki/Histogram_matching} is used to match the distribution of pixel values to a target image, and has many applications in image processing. Traditional methods are based on techniques which work for continuous data, but in almost all cases will gives results very far from a perfect match. My implementation is much slower and has no meaningful use case whatsoever, but it is cool. Provided is a gif of the steps taken by the algorithm in the case where we desire a uniform distribution of pixels, although it is robust enough to handle any input image and target distribution.
+
+![Simple case applied to a gray scale image](images/Hole1.gif)
+
+![More interesting case for an image with large peaks](images/Hole3.gif)
+
+![Worst case scenario applied to the hue channel of a color image](images/Hole3-1.gif)

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Links – Alex Karp</title>
+<title>Fun – Alex Karp</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -88,12 +89,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./project.html"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./fun.html" aria-current="page"> 
+<span class="menu-text">Fun</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -106,52 +111,62 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#true-histogram-matching" id="toc-true-histogram-matching" class="nav-link active" data-scroll-target="#true-histogram-matching">True Histogram Matching</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/Website Image-01.jpg" class="about-image
-  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Links</h1>
+<h1 class="title">Fun</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:ivanakarp@g.ucla.edu" class="about-link" rel="" target="">
-    <i class="bi bi-mail"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://www.linkedin.com/in/ivan-karp-b75a44159" class="about-link" rel="" target="">
-    <i class="bi bi-linkedIn"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
+
+
+<section id="true-histogram-matching" class="level2">
+<h2 class="anchored" data-anchor-id="true-histogram-matching">True Histogram Matching</h2>
+<p>In my free time I enjoy concocting interesting image filters to apply to my and my friends’ photographs. One of these is a true histogram matching algorithm which takes in either a gray scale image or the value/lightness channel of a color image and sets its histogram equal to the target by changing pixel values. The final image retains the relative order of pixels (if one pixel is lighter than another before, it will either be equal to lighter after), and runs with as few alterations as possible. Provided is a gif of the steps taken by the algorithm in the case where we desire a uniform distribution of pixels, although it is robust enough to handle any input image and target distribution.</p>
+<div>
+
 </div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I am an undergraduate student currently studying Mathematics and Statistics at UCLA. In the past I have mostly applied my skills doing mathematical research in fields such as matroid and knot theory. More recently I have been working as a student researcher at a wind energy lab attempting to predict wind farm power and revenue generation under turbulent conditions. At present I am mostly interested in computational statistics and machine learning. <a href=".\CV.pdf">My CV</a></p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>University of California, Los Angeles | Los Angeles, CA B.S. Mathematics, B.S. Statistics &amp; Data Science | Sept 2021 - June 2025</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p>CREAS Lab | Student Researcher | May 2024 - present</p>
-</section>
-</div></div>
+<div id="Transform" class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>![Original](Img4.png){#img_org}</p>
 </div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>![Transformed](Img4_qnew.png){#img_new}</p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Result of applying the filter with a uniform target distribution.</p>
+</div>
+</div>
+</div>
+<p>(Histogram Matching){https://en.wikipedia.org/wiki/Histogram_matching} is used to match the distribution of pixel values to a target image, and has many applications in image processing. Traditional methods are based on techniques which work for continuous data, but in almost all cases will gives results very far from a perfect match. My implementation is much slower and has no meaningful use case whatsoever, but it is cool.</p>
 
-<hr>
 
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -174,6 +189,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

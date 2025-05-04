@@ -8,6 +8,7 @@ website:
       - href: index.qmd
         text: About
       - project.qmd
+      - fun.qmd
 
 format:
   html:

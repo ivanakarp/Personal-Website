@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Links",
     "section": "",
-    "text": "Github\n  \n  \n    \n     Email\n  \n\n  \n  \nI am an undergraduate student currently studying Mathematics and Statistics at UCLA. In the past I have mostly applied my skills doing mathematical research in fields such as matroid and knot theory. More recently I have been working as a student researcher at a wind energy lab attempting to predict wind farm power and revenue generation under turbulent conditions. At present I am mostly interested in research on renewable energy and climate science. My CV\n\n\nUniversity of California, Los Angeles | Los Angeles, CA B.S. Mathematics, B.S. Statistics & Data Science | Sept 2021 - June 2025\n\n\n\nCREAS Lab | Student Researcher | May 2024 - present"
+    "text": "Email\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \nI am an undergraduate student currently studying Mathematics and Statistics at UCLA. In the past I have mostly applied my skills doing mathematical research in fields such as matroid and knot theory. More recently I have been working as a student researcher at a wind energy lab attempting to predict wind farm power and revenue generation under turbulent conditions. At present I am mostly interested in computational statistics and machine learning. My CV\n\n\nUniversity of California, Los Angeles | Los Angeles, CA B.S. Mathematics, B.S. Statistics & Data Science | Sept 2021 - June 2025\n\n\n\nCREAS Lab | Student Researcher | May 2024 - present"
   },
   {
     "objectID": "about.html",
@@ -81,27 +81,48 @@
     "href": "project.html",
     "title": "Projects",
     "section": "",
-    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently working on a journal paper version.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)"
+    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently at work on a full journal paper.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)"
   },
   {
     "objectID": "project.html#wind-farm-simulation",
     "href": "project.html#wind-farm-simulation",
     "title": "Projects",
     "section": "",
-    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently working on a journal paper version.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)"
+    "text": "I work as a student researcher under Chris Qin at WSU Vancouver. My work involves predicting the generated power and revenue of wind farms under variable turbulence and market conditions. I have presented some of my findings at the IEEE Big Data 2024 conference in Washington D.C. and am currently at work on a full journal paper.\n\n\nData-Driven Modeling of Wind Farm Power and Revenue Generation (PDF, IEEE Xplore)"
   },
   {
     "objectID": "project.html#matroid-theory-research",
     "href": "project.html#matroid-theory-research",
     "title": "Projects",
     "section": "Matroid Theory Research",
-    "text": "Matroid Theory Research\nI worked under Assistant Professor Federico Scavia researching the properties of matroids and the Galois groups of their Tutte Polynomials."
+    "text": "Matroid Theory Research\nI worked under Assistant Professor Federico Scavia researching the properties of matroids and the Galois groups of their Tutte Polynomials. Matroids are a fascinating object of study at the intersection of graph theory, linear algebra, and set theory."
   },
   {
     "objectID": "project.html#petal-projection-visualizer",
     "href": "project.html#petal-projection-visualizer",
     "title": "Projects",
     "section": "Petal Projection Visualizer",
-    "text": "Petal Projection Visualizer\nCreated a program for visualizing and checking the validity of petal projections, a construct in knot theory.\n\n\n\nVisualization of a Petal Projection"
+    "text": "Petal Projection Visualizer\nAs part of a larger research project, I created a program in Java for visualizing and checking the validity of petal projections based on presently proven properties to confirm theorized results.\n\n\n\nVisualization of a Petal Projection"
+  },
+  {
+    "objectID": "project.html#class-projects",
+    "href": "project.html#class-projects",
+    "title": "Projects",
+    "section": "Class Projects",
+    "text": "Class Projects\nYou can find a selection of my writing for class projects below (names of group members are blacked out for anonymity)\nTiming the Bluff: Predicting Deception in Poker through Timing\nPredicting NBA Match Results with Temporal Models\nPredicting Housing Prices with Regression Models"
+  },
+  {
+    "objectID": "fun.html",
+    "href": "fun.html",
+    "title": "Fun",
+    "section": "",
+    "text": "In my free time I enjoy concocting interesting image filters to apply to my and my friends’ photographs. One of these is a true histogram matching algorithm which takes in either a gray scale image or the value/lightness channel of a color image and sets its histogram equal to the target by changing pixel values. The final image retains the relative order of pixels (if one pixel is lighter than another before, it will either be equal to lighter after), and runs with as few alterations as possible. Provided is a gif of the steps taken by the algorithm in the case where we desire a uniform distribution of pixels, although it is robust enough to handle any input image and target distribution.\n\n\n\n\n\n\n![Original](Img4.png){#img_org}\n\n\n![Transformed](Img4_qnew.png){#img_new}\n\n\n\n\nResult of applying the filter with a uniform target distribution.\n\n\n\n(Histogram Matching){https://en.wikipedia.org/wiki/Histogram_matching} is used to match the distribution of pixel values to a target image, and has many applications in image processing. Traditional methods are based on techniques which work for continuous data, but in almost all cases will gives results very far from a perfect match. My implementation is much slower and has no meaningful use case whatsoever, but it is cool."
+  },
+  {
+    "objectID": "fun.html#true-histogram-matching",
+    "href": "fun.html#true-histogram-matching",
+    "title": "Fun",
+    "section": "",
+    "text": "In my free time I enjoy concocting interesting image filters to apply to my and my friends’ photographs. One of these is a true histogram matching algorithm which takes in either a gray scale image or the value/lightness channel of a color image and sets its histogram equal to the target by changing pixel values. The final image retains the relative order of pixels (if one pixel is lighter than another before, it will either be equal to lighter after), and runs with as few alterations as possible. Provided is a gif of the steps taken by the algorithm in the case where we desire a uniform distribution of pixels, although it is robust enough to handle any input image and target distribution.\n\n\n\n\n\n\n![Original](Img4.png){#img_org}\n\n\n![Transformed](Img4_qnew.png){#img_new}\n\n\n\n\nResult of applying the filter with a uniform target distribution.\n\n\n\n(Histogram Matching){https://en.wikipedia.org/wiki/Histogram_matching} is used to match the distribution of pixel values to a target image, and has many applications in image processing. Traditional methods are based on techniques which work for continuous data, but in almost all cases will gives results very far from a perfect match. My implementation is much slower and has no meaningful use case whatsoever, but it is cool."
   }
 ]

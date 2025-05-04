@@ -5,18 +5,18 @@ about:
   template: trestles
   image: images/Website Image-01.jpg
   links:
-    - icon: github
-      text: Github
-      href: https://github.com/ivanakarp
     - icon: mail
       text: Email
       url: "mailto:ivanakarp@g.ucla.edu"
+    - icon: linkedIn
+      text: LinkedIn
+      url: "https://www.linkedin.com/in/ivan-karp-b75a44159"
 ---
 
 
 :::{#hero-heading}
 
-I am an undergraduate student currently studying Mathematics and Statistics at UCLA. In the past I have mostly applied my skills doing mathematical research in fields such as matroid and knot theory. More recently I have been working as a student researcher at a wind energy lab attempting to predict wind farm power and revenue generation under turbulent conditions. At present I am mostly interested in research on renewable energy and climate science. [My CV](/CV.pdf)
+I am an undergraduate student currently studying Mathematics and Statistics at UCLA. In the past I have mostly applied my skills doing mathematical research in fields such as matroid and knot theory. More recently I have been working as a student researcher at a wind energy lab attempting to predict wind farm power and revenue generation under turbulent conditions. At present I am mostly interested in computational statistics and machine learning. [My CV](/CV.pdf)
 
 ## Education
 
