@@ -8,17 +8,11 @@ I work as a student researcher under Chris Qin at WSU Vancouver. My work involve
 
 ### Publications
 
-Data-Driven Modeling of Wind Farm Power and Revenue Generation ([PDF](/Paper.pdf), [IEEE Xplore](https://xploreqa.ieee.org/document/10825628/metrics#metrics))
+Data-Driven Modeling of Wind Farm Power and Revenue Generation ([PDF](/Paper.pdf), [IEEE Xplore](https://xploreqa.ieee.org/document/10825628/))
 
 ## Matroid Theory Research
 
 I worked under Assistant Professor Federico Scavia researching the properties of [matroids](https://en.wikipedia.org/wiki/Matroid) and the Galois groups of their Tutte Polynomials. Matroids are a fascinating object of study at the intersection of graph theory, linear algebra, and set theory.
-
-## Petal Projection Visualizer
-
-As part of a larger research project, I created a program in Java for visualizing and checking the validity of [petal projections](https://en.wikipedia.org/wiki/Petal_projection) based on presently proven properties to confirm theorized results.
-
-![Visualization of a Petal Projection](images/Petal%20Projection-02.png){fig-align="center"}
 
 ## Class Projects
 
@@ -29,3 +23,9 @@ You can find a selection of my writing for class projects below (names of group 
 [Predicting NBA Match Results with Temporal Models](\Stats_101C_Final_Project-1_Redacted.pdf)
 
 [Predicting Housing Prices with Regression Models](\Stats_101A_Final_Project.pdf)
+
+## Petal Projection Visualizer
+
+As part of a larger research project, I created a program in Java for visualizing and checking the validity of [petal projections](https://en.wikipedia.org/wiki/Petal_projection) based on presently proven properties to confirm theorized results.
+
+![Visualization of a trefoil knot as a petal projection](images/Petal_big.png){fig-align="center" width="451"}
